@@ -6,6 +6,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [StudentsComponent],
@@ -16,6 +18,8 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
+    ReactiveFormsModule,
+    MatTableModule,
   ],
   exports: [StudentsComponent],
 })
