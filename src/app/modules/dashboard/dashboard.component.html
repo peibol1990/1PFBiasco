@@ -10,7 +10,10 @@
     </mat-drawer>
   
     <div class="example-sidenav-content">
-      <app-toolbar (cambioMenu)="drawer.toggle()" />      
+      <app-toolbar (cambioMenu)="drawer.toggle()" />  
+      <main class="student-main">
+        <app-students />
+      </main>    
     </div>
   
   </mat-drawer-container>
